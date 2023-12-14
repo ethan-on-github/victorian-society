@@ -10,7 +10,7 @@ function Nav() {
     window.navigate("https://radon.games/games")
   }
   function catsGo() {
-    window.navigate("https://www.google.com")
+    window.navigate("https://catsanddogs.pages.dev/gallery/")
   }
 
   return (
