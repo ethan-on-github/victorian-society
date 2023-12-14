@@ -9,6 +9,9 @@ function Nav() {
   function gamesGo() {
     window.navigate("https://radon.games/games")
   }
+  function catsGo() {
+    window.navigate("https://www.google.com")
+  }
 
   return (
     <>
@@ -17,9 +20,9 @@ function Nav() {
             <Logo />
         </A>
         <div class="navItems">
-            <a href="https://discord.com/invite/yk33HZSZkU" class="navItem">
-                <SiDiscord fill="var(--text-inverse)" />
-            </a>
+            <div onclick={catsGo} class="navItem">
+                <IoGameController fill="var(--text-inverse)" />
+            </div>
             <a href="https://github.com/cognetwork-dev/Galaxy" class="navItem">
                 <AiOutlineGithub fill="var(--text-inverse)" />
             </a>
