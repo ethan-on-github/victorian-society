@@ -32,7 +32,7 @@ function Options() {
 
   const updateTitle = (e) => {
     setLocalTitle(e.target.value)
-    document.title = e.target.value || "Options | Galaxy"
+    document.title = e.target.value || "Options | Google"
   }
 
   const updateIcon = (e) => {
@@ -58,7 +58,7 @@ function Options() {
         <div class="options">
             <div class="option">
               <div class="optionTitle">Theme</div>
-              <div class="optionText">Make Galaxy your own!</div>
+              <div class="optionText">Make ___ your own!</div>
               <Select initialValue={theme()} options={themes} format={format} onChange={setTheme} />
             </div>
             <div class="option">
@@ -70,7 +70,7 @@ function Options() {
             {!isAboutBlank() ? (
               <div class="option">
                 <div class="optionTitle">About Blank</div>
-                <div class="optionText">Open Galaxy in a about:blank!</div>
+                <div class="optionText">Open ___ in a about:blank!</div>
                 <button class="optionButton" onclick={openAboutBlank}>Open</button>
               </div>
             ) : ""}
