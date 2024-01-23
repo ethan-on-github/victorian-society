@@ -23,7 +23,7 @@ function Nav() {
             <div onclick={catsGo} class="navItem">
                 <IoGameController fill="var(--text-inverse)" />
             </div>
-            <a href="https://github.com/cognetwork-dev/Galaxy" class="navItem">
+            <a href="https://example.com" class="navItem">
                 <AiOutlineGithub fill="var(--text-inverse)" />
             </a>
             <div onclick={gamesGo} class="navItem">

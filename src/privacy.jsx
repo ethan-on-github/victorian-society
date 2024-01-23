@@ -7,11 +7,9 @@ function Privacy() {
         <div class="privacy">
             <h2>Privacy Policy</h2>
             <p>
-            Your privacy is important to us. It is Cog Network&#39; policy to
+            Your privacy is important to us. It is the&#39; policy to
             respect your privacy and comply with any applicable law and regulation
-            regarding any personal information we may collect about you, including
-            across our website, <a href={window.location.origin}>{window.location.origin}</a>,
-            and other sites we own and operate.
+            regarding any personal information we may collect about you.
             </p>
             <p>
             This policy is effective as of 8 June 2022 and was last updated on 8 June
@@ -86,12 +84,10 @@ function Privacy() {
             </p>
             <h3>Contact Us</h3>
             <p>
-            For any questions or concerns regarding your privacy, you may contact us
-            using the following details:
+            For any questions or concerns regarding your privacy, you may contact us.
             </p>
             <p>
-            Nebelung<br/>
-            <a href="mailto:nebelung@mailfence.com">nebelung@mailfence.com</a>
+            aoeu<br/>
             </p>
         </div>
     </>

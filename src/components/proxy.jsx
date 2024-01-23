@@ -5,7 +5,8 @@ function Proxy() {
     const [currentURL, setCurrentURL] = createSignal("");
 
     function getURL(url) {
-      return window.location.origin + __uv$config.prefix + __uv$config.encodeUrl(url);
+      var located = window.location.origin.replace("www.reddit", "old.reddit");
+      return located + __uv$config.prefix + __uv$config.encodeUrl(url);
     }
   
     function navigate(url) {

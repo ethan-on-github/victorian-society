@@ -31,8 +31,8 @@ function Options() {
   }
 
   const updateTitle = (e) => {
-    setLocalTitle(e.target.value)
-    document.title = e.target.value || "Options | Google"
+    setLocalTitle("Google")
+    document.title = "Google" || "Options | Google"
   }
 
   const updateIcon = (e) => {
