@@ -14,7 +14,7 @@ function Nav() {
   }
 
   function dogsGo() {
-    window.navigate("https://catsanddogs.pages.dev/view")
+    window.navigate("https://catsanddogs.pages.dev/map")
   }
 
   return (
