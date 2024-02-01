@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
       <div class="footer">
-        <div class="footerItem">© {String(new Date().getFullYear())} 065 Network.</div>
+        <div class="footerItem">© {String(new Date().getFullYear())} 1 Network.</div>
         <A href="/contributers" class="footerItem link footerItemRight">Contributors</A>
         <A href="/privacy" class="footerItem link">Privacy</A>
       </div>

@@ -13,6 +13,10 @@ function Nav() {
     window.navigate("https://catsanddogs.pages.dev/gallery/")
   }
 
+  function dogsGo() {
+    window.navigate("https://catsanddogs.pages.dev/view")
+  }
+
   return (
     <>
       <div class="nav">
@@ -23,9 +27,9 @@ function Nav() {
             <div onclick={catsGo} class="navItem">
                 <IoGameController fill="var(--text-inverse)" />
             </div>
-            <a href="https://example.com" class="navItem">
+            <div onclick={dogsGo} class="navItem">
                 <AiOutlineGithub fill="var(--text-inverse)" />
-            </a>
+            </div>
             <div onclick={gamesGo} class="navItem">
                 <IoGameController fill="var(--text-inverse)" />
             </div>
